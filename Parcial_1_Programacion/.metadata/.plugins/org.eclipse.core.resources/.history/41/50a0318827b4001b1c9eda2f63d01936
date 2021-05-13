@@ -1,23 +1,17 @@
 /*
  ============================================================================
  Name        : Parcial_1_Prog.c
- Author      : Eduard Brito Hernandez - División: 1-E
- Description :
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
  ============================================================================
  */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
-#include <string.h>
-//#define TAM 5
 
 int main(void) {
-	setbuf(stdout, NULL);
-
-
-
-
-
+	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
