@@ -20,7 +20,7 @@ int main(void) {
 	eRecaudacion recaudacion[TAM_ARRAY];
 	eContribuyente contribuyente[TAM_ARRAY];
 
-	eRecaudacion_Inicializar(recaudacion, TAM_ARRAY);
+	eContribuyente_Inicializa (recaudacion, TAM_ARRAY);
 	eContribuyente_Inicializar(contribuyente, TAM_ARRAY);
 
 

@@ -1,1 +1,8 @@
-Info: Nothing to build for Parcial_1_Prog
+21:43:01 **** Incremental Build of configuration Debug for project Parcial_1_Prog ****
+Info: Internal Builder is used for build
+gcc -o Parcial_1_Prog.exe "src\\Parcial_1_Prog.o" "src\\eContribuyente.o" "src\\eRecaudacion.o" 
+c:/mingw/bin/../lib/gcc/mingw32/9.2.0/../../../../mingw32/bin/ld.exe: src\eRecaudacion.o:eRecaudacion.c:(.data+0x0): multiple definition of `arrayTipo'; src\Parcial_1_Prog.o:Parcial_1_Prog.c:(.data+0x0): first defined here
+collect2.exe: error: ld returned 1 exit status
+
+21:43:02 Build Failed. 1 errors, 0 warnings. (took 194ms)
+

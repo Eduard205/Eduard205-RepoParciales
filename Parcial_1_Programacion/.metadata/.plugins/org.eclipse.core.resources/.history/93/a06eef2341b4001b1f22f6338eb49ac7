@@ -11,17 +11,17 @@
 #include <ctype.h>
 #include <string.h>
 #include "eRecaudacion.h"
-#include "eContribuyente.h"
-#define TAM_ARRAY 50
+//#define TAM 5
 
 int main(void) {
 	setbuf(stdout, NULL);
 
-	eRecaudacion recaudacion[TAM_ARRAY];
-	eContribuyente contribuyente[TAM_ARRAY];
+	eDescripTipoReca arrayTipo[QTY_TIPO]={
+			{1,"ARBA",0};
+			{2,"IIBB",0};
+			{3,"GANANCIAS",0}
+	};
 
-	eRecaudacion_Inicializar(recaudacion, TAM_ARRAY);
-	eContribuyente_Inicializar(contribuyente, TAM_ARRAY);
 
 
 
